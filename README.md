@@ -35,8 +35,6 @@ Save the code in a file, e.g., guess_game.py.
 Open a terminal or command prompt.
 
 Run the game:
-
 bash
-Copy
-Edit
+
 python guess_game.py
