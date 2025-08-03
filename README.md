@@ -1,40 +1,77 @@
-# Codveda_Level1_Task2_numberguessinggame
-📌 Project Title: Number Guessing Game – CodVeda Task 2
-🧠 Overview
-This project is a beginner-friendly number guessing game built using Python. Developed as part of CodVeda Internship Task 2, the game challenges the player to guess a randomly selected number between 1 and 100 within 7 attempts.
+# 🎯 Number Guessing Game – CodVeda Level 1 Task 2
 
-It’s designed to strengthen basic programming logic, user input handling, and control flow understanding. The game provides real-time feedback like “Too low” or “Too high” and validates user input to ensure smooth gameplay.
+This project is a simple Python-based number guessing game built as part of the **CodVeda Internship Program** by **Contact Support**.
 
-🛠️ Features
-🎲 Random number generation between 1 and 100
+The objective of the game is to guess a randomly selected number between 1 and 100 within 7 attempts. The player receives helpful feedback after each guess.
 
-🔁 Limited to 7 attempts to guess correctly
+---
 
-✅ Input validation (prevents crashes from invalid input)
+## 📌 Project Details
 
-🧭 Real-time feedback ("Too low", "Too high")
+- 👨‍💻 **Internship Program**: CodVeda – Level 1  
+- 🏢 **Company**: Contact Support  
+- 🧩 **Task**: Task 2 – Build a Number Guessing Game in Python  
+- 🗂️ **Repository**: [GitHub Link](https://github.com/shabamuskan/Codveda_Level1_Task2_numberguessinggame)
 
-📉 Attempt counter with remaining tries
+---
 
-📍 Final result message with the correct answer if the user fails
+## 🧠 Features
 
-🔧 What I Learned
-Implementing while loops and conditional statements
+- ✅ Random number generation between 1 and 100
+- 🔁 Limit of 7 attempts
+- 🔢 Input validation to prevent crashes on invalid input
+- 🧭 Feedback for each guess: “Too low” / “Too high”
+- 🛑 Displays correct answer if not guessed within 7 attempts
 
-Handling exceptions using try-except
+---
 
-Building interactive console-based Python applications
+## 🛠️ Technologies Used
 
-Validating user input and improving UX in CLI apps
+- **Language**: Python 3
+- **IDE**: Any (VS Code, PyCharm, IDLE, etc.)
+- **Environment**: Command-line / Terminal
 
-🚀 How to Run
-Make sure Python is installed on your system.
+---
 
-Save the code in a file, e.g., guess_game.py.
+## 🚀 How to Run the Game
 
-Open a terminal or command prompt.
+1. Make sure you have Python installed. Check with:
+   ```bash
+   python --version
+Clone the repository:
 
-Run the game:
+bash
+git clone https://github.com/shabamuskan/Codveda_Level1_Task2_numberguessinggame.git
+Navigate to the project folder:
+
+bash
+cd Codveda_Level1_Task2_numberguessinggame
+
+Run the script:
 bash
 
 python guess_game.py
+
+📷 Sample Output
+
+Guess the number between 1 and 100. You have 7 tries.
+Enter your guess: 50
+Too high!
+Attempts left: 6
+Enter your guess: 25
+Too low!
+Attempts left: 5
+
+✨ What I Learned
+Writing clean and interactive Python programs
+
+Using loops, conditionals, and exception handling
+
+Validating user input for better UX
+
+Applying logic-based thinking to game design
+
+🤝 Acknowledgment
+This project was completed as part of my internship with Contact Support under the CodVeda Program.
+
+
